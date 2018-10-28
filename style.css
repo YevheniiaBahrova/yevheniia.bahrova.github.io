@@ -55,6 +55,8 @@ body {
 #search input {
   float: left;
   border: 1px solid #2c71b8;
+  margin-top: 11px;
+  margin-left: 13px;
 }
 #search .input {
   width: 70%;
@@ -69,11 +71,12 @@ body {
   height: 22px;
   cursor: pointer;
   margin-left: -37px;
-  margin-top: 3px;
+  margin-top: 14px;
   background-color: #2c71b8;
 }
 img#cart {
-	margin: 10px;
+	margin-top: 12px;
+	margin-left:14px;
 	width: 12%;
 	height: 25px;
 	background-color: white;
