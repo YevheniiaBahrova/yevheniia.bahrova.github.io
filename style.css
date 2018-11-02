@@ -48,6 +48,21 @@ body {
 	background-color:  #2c71b8;
 	color: white;
 }
+.submenu li a {
+	color: white;
+	background-color:#2c71b8;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 21px;
+	z-index: -1;
+	float: none;
+	width: 320%;
+
+}
+.submenu li a:hover
 #search {
   width: 71%;
   height: 29px;
@@ -59,8 +74,8 @@ body {
   margin-left: 13px;
 }
 #search .input {
-  width: 70%;
-  height: 28px;
+  width: 80%;
+  height: 35px;
   padding: 0 38px 1px 15px;
   background-color: transparent;
   color: #2c71b8;
@@ -68,18 +83,37 @@ body {
 }
 #search .submit {
   width: 34px;
-  height: 22px;
+  height: 28px;
   cursor: pointer;
   margin-left: -37px;
   margin-top: 14px;
   background-color: #2c71b8;
+  background-image: url(images/loop.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-img#cart {
-	margin-top: 12px;
-	margin-left:14px;
-	width: 12%;
-	height: 25px;
+.icon {
+	background-image: url(images/cart.png);
 	background-color: white;
-	border:4px white solid;
+	float: left;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 10px;
+	position: relative;
 }
-
+.counter {
+	background-color: #2c71b8; 
+	color: white;
+	position: absolute;
+	margin: 0;
+	border: 0.5 black solid;
+	border-radius: 50px;
+	font-size: 11px;
+	padding: 4px 6px;
+	right: 47px;
+	top: 24px;
+}
