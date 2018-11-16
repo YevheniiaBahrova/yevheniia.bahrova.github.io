@@ -89,6 +89,12 @@ ul {
 ul.menu:nth-child(2) {
 	position: relative;
 }
+.row>a {
+	background-image: url(images/angle-down.png);
+	background-repeat: no-repeat;
+	background-position-x: 120px;
+	background-position-y: 18px;
+}
 .submenu {
 	position: absolute;
 	margin: 0 auto;
@@ -187,9 +193,68 @@ h3 {
 	font-size: 21px;
 	margin-bottom: 18px;
 }
-
+#text {
+	display: none;
+	border: 1px solid white;
+}
+label {
+	position: relative;
+	width: 8px;
+	height: 8px;
+}
+label:before{
+	content: "";
+	display: block;
+	width:8px;
+	height:8px;
+	border:1px solid white;
+	background-color: transparent;
+	position: absolute;
+	top:3px;
+	left: -17px;
+}
+input:checked + label:before {
+	background-color: white;
+}
 .boldtext {
 	font-weight: bold;
+}
+.left-panel {
+	background-color: rgba(255,255,255,0.30);
+	color: white;
+	padding-top:32px;
+	padding-right: -15px;
+	width: 20%;
+	margin-right: 25px;
+	border-right: 1px solid white;
+}
+.left-panel>ul {
+	margin-left:20px;
+}
+.left-panel>ul>li {
+	margin-bottom: 40px;
+}
+.left-panel>ul>li>ul>li{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.left-panel>div {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.left-panel>div>button {
+	margin-top: 25px;
+	color: white;
+	border: 1px solid white;
+	padding : 10px;
+	background-color:#2c71b8;
+	width: 209px;
+	height: 50px;
+	font-size: 18px;
+}
+.left-panel>div>button:hover {
+	background-color:#568dc6;
+	cursor: pointer;
 }
 .sort {
 	margin-top: 60px;
@@ -202,6 +267,11 @@ h3 {
     line-height: 39px;
     border: 1px solid white;
     position: relative;
+    padding-left: 15px;
+    background-image: url(images/angle-down1.png);
+    background-repeat: no-repeat;
+    background-position-x: 240px;
+	background-position-y: 12px;
 }
 .submenu1 li {
 	height: 39px;
@@ -228,16 +298,19 @@ ul .submenu1 {
 }
 .devices {
 	color: white;
-	background-color: rgba(44,112,183,0.75);
+	background-color: rgba(44,112,183,0.60);
 	width: 272px;
 	margin-right: 30px;
 	border: 1px solid white;
 	margin-top: 28px;
-	height: 550px;
+	height: 570px;
 	padding: 15px;
 }
+h3 {
+	padding-top:10px; 
+}
 .device-image {
-	background-color: rgba(255,255,255,0.75);
+	background-color: rgba(255,255,255,0.60);
 	height: 177px;
 	width: 270px;
 	margin-top: -15px;
@@ -325,6 +398,7 @@ sup {
 	font-size: 37px;
 	font-weight: bolder;
 	text-align: center;
+	padding-left:37px;
 }
 .info button {
 	text-decoration: none;
@@ -347,6 +421,10 @@ sup {
 }
 .button2 {
 	background-color: #568dc6;
+	background-image: url(images/cart2.png);
+	background-repeat: no-repeat;
+	background-position-x: 177px;
+    background-position-y: 13px;
 }
 .button2:hover {
     background-color:#2c71b8;
