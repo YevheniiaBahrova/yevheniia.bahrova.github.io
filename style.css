@@ -179,22 +179,61 @@ ul.menu:nth-child(2) {
 	display: inline-block;
 	margin-top: 27px;
 }
+
 .references a:hover {
 	text-decoration: underline;
+}
+.references {
+	width: 846px;
 }
 h2 {
 	font-size: 40px;
 	font-weight: bold;
 	color: white;
 	margin-top: 25px;
+	width: 400px;
 }
 h3 {
 	font-weight: bolder;
 	font-size: 21px;
-	margin-bottom: 18px;
+	padding-top:10px; 
 }
 #text {
 	display: none;
+	border: 1px solid white;
+}
+#text1 {
+	display: none;
+	border: 1px solid white;
+}
+#text2 {display: none;
+	border: 1px solid white;
+}
+#text3 {display: none;
+	border: 1px solid white;
+}
+#text4 {display: none;
+	border: 1px solid white;
+}
+#text5 {display: none;
+	border: 1px solid white;
+}
+#text6 {display: none;
+	border: 1px solid white;
+}
+#text7 {display: none;
+	border: 1px solid white;
+}
+#text8 {display: none;
+	border: 1px solid white;
+}
+#text9 {display: none;
+	border: 1px solid white;
+}
+#text10 {display: none;
+	border: 1px solid white;
+}
+#text11 {display: none;
 	border: 1px solid white;
 }
 label {
@@ -225,7 +264,7 @@ input:checked + label:before {
 	padding-top:32px;
 	padding-right: -15px;
 	width: 20%;
-	margin-right: 25px;
+	margin-right: 50px;
 	border-right: 1px solid white;
 }
 .left-panel>ul {
@@ -257,6 +296,7 @@ input:checked + label:before {
 	cursor: pointer;
 }
 .sort {
+	float: right;
 	margin-top: 60px;
 	margin-bottom: 8px; 
 	height: 39px;
@@ -272,6 +312,7 @@ input:checked + label:before {
     background-repeat: no-repeat;
     background-position-x: 240px;
 	background-position-y: 12px;
+
 }
 .submenu1 li {
 	height: 39px;
@@ -303,12 +344,11 @@ ul .submenu1 {
 	margin-right: 30px;
 	border: 1px solid white;
 	margin-top: 28px;
-	height: 570px;
+	height: 560px;
 	padding: 15px;
+	float: right;
 }
-h3 {
-	padding-top:10px; 
-}
+
 .device-image {
 	background-color: rgba(255,255,255,0.60);
 	height: 177px;
@@ -381,8 +421,8 @@ h3 {
 	top: 52px;
 	right:8px; 
 }
-li .type {
-	margin-top:15px;
+.devices>ul>li {
+	padding-bottom: 10px;
 }
 .info {
 	height: 51px;
